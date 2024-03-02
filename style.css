@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(99,33,33);
+    background: linear-gradient(90deg, rgba(99,33,33,1) 29%, rgba(9,214,218,1) 69%);
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+input{
+    background: rgba(99,33,33,1);
+    outline: none;
+    border: none;
+    margin-right: 13px;
+    padding: 5px;
+    font-size: 30px;
+}
+button{
+    position: relative;
+    background: rgb(9, 218, 30);
+    outline: none;
+    border: 0px;
+    padding: 10px;
+    height: 45px;
+}
+#cat{
+    width: 300px;
+    height: auto;
+    display: none;
+}
+#catgif{
+    width: 300px;
+    height: auto;
+    display: none;
+}
